@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.addNote {
+  position: fixed;
+  border-radius: 50%;
+  width: 50px;
+  height: 80px;
+  bottom: 5px;
+  right: 5px;
+}
+
+.stickyNote {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  background-color: aquamarine;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.removeNote {
+  border-radius: 50%;
+  padding: 5px;
+  position: absolute;
+  top: 3px;
+  right: 5px;
+}
+
+.stickyNotesContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+.NoteText {
+  flex: 1;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+}
